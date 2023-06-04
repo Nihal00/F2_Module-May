@@ -57,7 +57,7 @@ function orderPrep() {
 
 // ------------- waiting for Payment status to return {order_status:true; paid:true}----------
 
-function payOrder(order) {
+function payOrder() {
   const payment = document.getElementById('payment');
   payment.innerHTML =  `
     <div class="payment">
@@ -66,9 +66,9 @@ function payOrder(order) {
   `;
   return new Promise(resolve => {
     setTimeout(() => {
-      order.paid = true;
+      const obj = {order_status: true, paid:true};
       payment.innerHTML = '';
-      resolve(order);
+      resolve(obj);
     }, 1000);
   });
 }
