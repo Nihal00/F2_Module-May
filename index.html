@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>My Restaurant</title>
+</head>
+<body>
+
+    <main class="main">
+
+        <!--------------------- navigation bar ---------------------->
+        <nav class="nav-bar" id="nav-bar">
+            <div class="logo">
+                <h1>My Restaurant</h1>
+            </div>
+
+            <div>
+                <ul class="menu-items">
+                    <li><a href="#home" class="active">home</a></li> 
+                    <li><a href="#menu">menu</a></li> 
+                    <li><a href="#gallery">food gallery</a></li> 
+                    <li><a href="#contactUs">contact us</a></li> 
+                </ul>
+            </div>
+        </nav>
+
+        <!----------------------- Menu items ------------------------->
+        <div id="menu">
+            <div class="tag">
+                <h3 class="tag-name">Tasty Dishes</h3>
+            </div>
+    
+            <div class="items-list">
+                <ul class="items-type">
+                    <li class="items">dessert</li>
+                    <li class="items">burger</li>
+                    <li class="items">drinks</li>
+                    <li class="items selected">main dishes</li>
+                    <li class="items">pizza</li>
+                    <li class="items">salads</li>
+                    <li class="items">ice cream</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <!------------------------Food Gallery --------------------------->
+        <div class="food-items" id="gallery">
+
+            <!-- <div class="food-container">
+                <div class="img-container">
+                    <img src="https://source.unsplash.com/random/1920x1080/?cheeseburger" alt="">
+                </div>
+
+                <div class="item-name">
+                    <h2 class="name">Cheeseburger</h2>
+                    <div class="order">
+                        <p class="price">$ 5.99</p>
+                        <p class="order-now">order now</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <!----------------- display on preparing the food ----------------->
+        <div id="pre">
+            <!-- <div class="order-prepare">
+                <h3>your order is being prepared</h3>
+                <p>Please Wait..!</p>
+            </div> -->
+        </div>
+
+        <!------------------- display on payment------------------------- -->
+        <div id="payment">
+            <!-- <div class="payment">
+                <h3>thank you for making the payment</h3>
+            </div> -->
+        </div>
+
+        <!--------------------- Thank you note ------------------------------>
+        <div id="thankyou">
+            <!-- <div class="thankyou">
+                <h3>thankyou for eating with us today!</h3>
+            </div> -->
+        </div>
+
+        <!------------------- Back to top navigator ------------------------->
+        <div class="take-up">
+            <a href="#nav-bar">go top</a>
+        </div>
+    </main>
+
+    
+<!----------------------- Contact Us -------------------------->
+    <footer class="footer" id="contactUs">
+        <div class="logo-2">
+            <h2>My Restaurant</h2>
+            <p> Address: Near Taj Mahal </p>
+            <p>Call@ +91 91234 56789</p>
+        </div>
+        <div class="media-icon">
+            <i class="fa-brands fa-facebook" style="color: #005eff; font-size: 2rem;"></i>
+            <i class="fa-brands fa-instagram" style="color: #e22222; font-size: 2rem;"></i>
+            <i class="fa-brands fa-twitter" style="color: #005eff; font-size: 2rem;"></i>
+        </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
